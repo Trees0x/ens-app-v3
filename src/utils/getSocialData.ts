@@ -28,6 +28,7 @@ export const getSocialData = (iconKey: string, value: string) => {
         label: 'Discord',
         value,
         type: 'copy',
+        urlFormatter: `https://github.com/${value}`,
       }
     case 'telegram':
     case 'org.telegram':
